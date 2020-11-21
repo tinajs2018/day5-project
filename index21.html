@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro component with sign up form</title>
+    <link rel="stylesheet" href="style21.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Learn to code by</br> watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. </p>
+        </div>
+        <div class="right">
+        <div class="purple-box">
+            <p>Try it for free 7 days  <span>Then $20/mo. therefore</span>   </p>
+            </div>
+                <form action="" class="box">
+            <div class="input-form">
+        <input type="text" placeholder="FirstName" id="name" class="input">
+        <small id="small1">FirstName cannot be empty</small>
+        <img src="/images/icon-error.svg" alt="" id="error1" class="error">
+            </div>
+
+            <div class="input-form" id="input-form2">
+                <input type="text" placeholder="LastName" id="name1" class="input">
+                <small id="small2"> Last Name cannot be empty</small>
+                <img src="/images/icon-error.svg" alt="" id="error2" class="error" >
+                    </div>
+
+                    <div class="input-form" id="input-form3">
+                        <input type="text" placeholder="E-mail" id="email" class="input">
+                        <small id="small3">Looks like this is the email</small>
+                        <img src="/images/icon-error.svg" alt="" id="error3" class="error">
+                            </div>
+
+                            <div class="input-form" id="input-form4">
+                                <input type="password" placeholder="password" id="password" class="input">
+                                <small id="small4">password cannot be empty</small>
+                                <img src="/images/icon-error.svg" alt="" id="error4" class="error">
+                                    </div> 
+            </form>
+            <div class="button" onclick=validate() >Claim your free Trial</div>
+            <p class="info">By clisking the button,you are agreeing to our
+             <span>Terms  and Services</span>   
+            </p>
+        </div>
+
+    </div>
+  <script src="main21.js"></script>  
+</body>
+</html>
